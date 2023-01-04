@@ -6,6 +6,7 @@ import { api } from "../utils/api";
 
 import "../styles/globals.css";
 import Navbar from "../components/shared/Navbar";
+import "../components/BussinesCard/BusinessCard.css";
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,
